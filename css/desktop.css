@@ -1,0 +1,48 @@
+@media (min-width: 576px) and (max-width: 2440px){
+    body {
+        background: hsl(0, 100%, 74%) url(../images/bg-intro-desktop.png);
+    }
+
+    div.container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    header {
+        width: 40%;
+        position: relative;
+        top: 80px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    main {
+        width: 45%;
+        margin-top: 100px;
+    }
+
+    div#price p{
+        padding: 20px 0px;
+        text-align: center;
+    }
+
+    span.texto {
+        position: relative;
+        left: 300px;
+    }
+
+    small {
+        text-align: center;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+}
