@@ -55,4 +55,8 @@ btn.onclick = function (){
         password.style.border = '1px solid rgba(10, 0, 0, 0.2)';
     }
 
+    if (first_name.value != '' && last_name.value != '' && validarEmail(email.value) == true && password.value != ''){
+        alert(`Parabéns, ${first_name.value}!! Seu login foi realizado com sucesso!`);
+    }
+
 };
